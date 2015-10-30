@@ -23,7 +23,7 @@ class Hello extends React.Component {
 
 class Counter extends React.Component {
 
-    constructor() {
+    constructor(props) {
         super();
         this.state = {
             count: 0
